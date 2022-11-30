@@ -28,7 +28,7 @@ const Owner = () => {
                     <div className="item" >
                         <div className='card'> Name: </div>
                         <div className='address'> Address: </div>
-                        <img className='img' src="" /><br />
+                        <img className='img' src="" alt='img' /><br />
                         <button onClick={() => handleEdit()} >Edit </button>
                         <button >Delete </button>
                     </div>

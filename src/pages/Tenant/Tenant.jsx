@@ -12,7 +12,7 @@ const Tenant = () => {
                         <div className='card'>Name</div>
                         <br />
                         <div className='address'>property Address</div>
-                        <img className='tenantpageimg' src="" />
+                        <img className='tenantpageimg' src="" alt='img'/>
                     </div>
                 </>
             </div>
