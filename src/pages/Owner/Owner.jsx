@@ -1,13 +1,15 @@
 import React from 'react'
 import './Owner.css'
-
+import { useNavigate } from 'react-router-dom'
 const Owner = () => {
 
+    const navigate = useNavigate();
+
     function handleAdd(id) {
-        navigator('/AddProperty', id)
+        navigate('/AddProperty', id)
     }
     const handleEdit = (id) => {
-        navigator('/EditProperty',id)
+        navigate('/EditProperty',id)
     }
 
     return (
